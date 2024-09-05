@@ -1,0 +1,9 @@
+.maincontainer {
+    backdrop-filter: blur(10px);
+    -webkit-box-shadow: -1px 0px 45px 8px rgb(164, 147, 147);
+    -moz-box-shadow: -1px 0px 45px 8px rgba(97, 83, 83, 0.54);
+    box-shadow: -1px 0px 45px 8px rgba(41, 38, 38, 0.251);
+  }
+
+  
+  

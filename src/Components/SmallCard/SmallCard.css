@@ -1,0 +1,23 @@
+
+.card-div {
+  backdrop-filter: blur(19px);
+  height: 6rem;
+  width: 10vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.084);
+  -webkit-box-shadow: -1px 0px 45px 8px rgb(225, 225, 225);
+  -moz-box-shadow: -1px 0px 45px 8px rgba(255, 255, 255, 0.689);
+  box-shadow: -1px 0px 45px 8px rgba(251, 251, 251, 0.426);
+  color: #000000;
+}
+
+@media only screen and (max-width: 900px) {
+  .card-div {
+    box-shadow: none;
+    width: 90vw;
+  }
+}
